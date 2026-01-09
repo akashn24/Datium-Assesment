@@ -6,19 +6,19 @@ This repository contains an end-to-end machine learning workflow for predicting 
 
 ## 📁 Repository Structure
 
+```text
 .
-├── data/
-│ 
-├── notebooks/
-│ ├── eda.ipynb # Exploratory Data Analysis
-│ ├── feature_engineering.ipynb
-│ └── modelling.ipynb # Model training, evaluation & MLflow experiments
-│ └── final_model.py # Final model training & inference class
-├── mlruns/ # MLflow local experiment tracking
-│
-├── requirements.txt
-└── README.md
-
+├── data
+│   ├── DatiumTest.rpt
+│   └── DatiumTrain.rpt
+├── notebooks
+│   ├── eda.ipynb
+│   ├── feature_engineering.ipynb
+│   ├── final_model.py
+│   └── modelling.ipynb
+├── README.md
+└── requirements.txt
+```
 
 ---
 
@@ -99,7 +99,7 @@ Install Packages
 pip install -r requirements.txt
 ```
 
-## ⚙️ Run ML Flow
+## 🏃🏽 Run ML Flow
 
 ```bash
 mlflow server --host 127.0.0.1 --port 5000
